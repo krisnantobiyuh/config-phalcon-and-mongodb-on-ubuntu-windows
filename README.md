@@ -2,8 +2,9 @@
 How to config phalcon and mongodb on ubuntu windows until work
 
 ### install lxrun.exe
-            lxrun.exe /install
-
+```
+lxrun.exe /install
+```
 ### uninstall lxrun.exe
 
 ```
