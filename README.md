@@ -12,14 +12,21 @@ if you got problem you can uninstall and install again.
 ### Next you need to install mongoDB on ubuntu windows. You need to run.
 
 Import they key for the official MongoDB repository.</br>
->sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+ ```
+ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+```
 Than create a list file for MongoDB.</br>
-            echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+```
+echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+```
 Update the packages list.</br>
-            sudo apt-get update
+```
+sudo apt-get update
+```
 Now we can install the MongoDB package itself.</br>
-            sudo apt-get install -y mongodb-org
-
+```
+sudo apt-get install -y mongodb-org
+```
 ### PhalconPhp with PHP7 installation on ubuntu:16.04
 
             sudo apt-get install -y php7.0-fpm \php7.0-cli \php7.0-curl \php7.0-gd \php7.0-intl \php7.0-pgsql \php7.0-mbstring \php7.0-xml \php-msgpack \curl \vim \wget \git
