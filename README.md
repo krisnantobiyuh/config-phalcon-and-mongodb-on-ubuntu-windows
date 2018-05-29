@@ -166,3 +166,36 @@ use if error [Unable to locate package php7.0 [duplicate]](https://askubuntu.com
 ```
 apt-add-repository ppa:ondrej/php
 ```
+
+### enable enable mod_rewrite. 
+```
+sudo a2enmod rewrite
+```
+and you need to restart apache2
+```
+sudo service apache2 restart
+```
+
+### [Error with PECL command in PHP7](https://www.digitalocean.com/community/questions/error-with-pecl-command-in-php7)
+```
+apt-get install php-pear
+
+apt-get install pkg-config
+
+apt-get install libbson-1.0
+
+apt-get install libmongoc-1.0-0
+
+apt-get install php-xml php7.0-xml
+
+apt-get install php-dev
+
+then Add the following line to your php.ini file:
+
+extension=mongodb.so
+```
+
+### [phpinfo(); not working](https://askubuntu.com/questions/505409/phpinfo-in-var-www-html-not-working?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+```
+sudo apt-get install libapache2-mod-php5
+```
