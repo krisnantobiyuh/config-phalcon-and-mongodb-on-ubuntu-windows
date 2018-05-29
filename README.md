@@ -159,6 +159,10 @@ pecl upgrade mongodb
 
 
 
+[install-phpize-for-php7-ubuntu](https://askubuntu.com/questions/819797/is-is-possible-to-install-phpize-for-php7-ubuntu16-04?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+[lxrun /uninstall](https://www.neontribe.co.uk/windows-10-bash-ubuntu-16-04-upgrade/)
 
-
-
+use if error [Unable to locate package php7.0 [duplicate]](https://askubuntu.com/questions/715944/unable-to-locate-package-php7-0?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+```
+apt-add-repository ppa:ondrej/php
+```
