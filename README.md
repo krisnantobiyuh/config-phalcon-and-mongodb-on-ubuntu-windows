@@ -163,6 +163,7 @@ pecl upgrade mongodb
 [lxrun /uninstall](https://www.neontribe.co.uk/windows-10-bash-ubuntu-16-04-upgrade/)
 
 use if error [Unable to locate package php7.0 [duplicate]](https://askubuntu.com/questions/715944/unable-to-locate-package-php7-0?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
 [ubuntu php7.2](https://ayesh.me/Ubuntu-PHP-7.2)
 
 ```
